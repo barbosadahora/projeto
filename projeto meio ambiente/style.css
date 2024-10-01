@@ -1,0 +1,106 @@
+
+/* ESTILO GERAL */
+*{
+     /* margin:0; */
+     /* padding:0; */
+     /* box-sizing: border-box; */
+
+     .menu-desktop {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    
+    .menu-desktop ul {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px; /* Espaçamento entre os itens do menu */
+        list-style-type: none;
+    }
+    
+    .menu-desktop li {
+        margin-right: 10px; /* Margem entre os itens do menu */
+    }
+    
+    .menu-desktop a {
+        text-decoration: none;
+        color: rgb(0, 0, 0); /* Cor do texto do menu */
+    }  
+
+
+      
+}
+
+body{
+    background-color: aliceblue 000;
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1280px
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+
+}
+/* ESTILO DO CABEÇALHO */
+header{
+    padding: 50px 100%;
+}
+
+header >.interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header a{
+    color: blue;
+    text-decoration: none;
+    display: inline-block;
+    transition: 2s;
+}
+header a:hover{
+    color: #5c5c5c;
+    transform: scale(1.05);
+
+}
+header nav ul{
+    list-style: none;
+}
+header nav ul li{
+    display:inline-block;
+    padding: 0 40px;
+}
+
+header .btn-contato button{
+    padding:  10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: blue;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+        
+    }
+    
+header .btn-contato button:hover{  
+    box-shadow: 0px 0px 8px blue;
+        
+    
+}
+/* ESTILO DO TOPO DO SITE */
+section.topo-do-site{
+    padding: 40px 4%;
+}
+
+selection.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+
+}
+.topo-do-site h1{
+    color: #000;
+    font-size: 38px;
+}

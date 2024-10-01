@@ -1,0 +1,29 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+#menu-h ul {
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+    background-color: blue;
+}
+#menu-h ul li{
+    display: inline;
+}
+#menu-h ul a{
+    color: floralwhite;
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .6s;
+}
+#menu-h ul a:hover{
+    color:blueviolet;
+    
+}
+#menu-h ul li:last-child a {
+    float: right;
+    background-color: blueviolet;
+}
